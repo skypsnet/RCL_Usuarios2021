@@ -1,0 +1,2849 @@
+:root {
+  --f7-theme-color: green;
+  --f7-theme-color-rgb: 0, 122, 255;
+  --f7-theme-color-shade: green;
+  --f7-theme-color-tint: green;
+  --f7-safe-area-left: 0px;
+  --f7-safe-area-right: 0px;
+  --f7-safe-area-top: 0px;
+  --f7-safe-area-bottom: 0px;
+  --f7-safe-area-outer-left: 0px;
+  --f7-safe-area-outer-right: 0px;
+  --f7-device-pixel-ratio: 1;
+  --f7-page-bg-color: white;
+}
+
+:root {
+  --f7-list-inset-side-margin: 16px;
+  --f7-list-item-cell-margin: 16px;
+  --f7-list-item-padding-horizontal: 16px;
+  --f7-list-media-item-padding-horizontal: 16px;
+  --f7-list-item-text-max-lines: 2;
+  --f7-list-chevron-icon-font-size: 20px;
+  --f7-list-item-title-font-size: inherit;
+  --f7-list-item-title-font-weight: 500;
+  --f7-list-item-title-text-color: inherit;
+  --f7-list-item-title-line-height: inherit;
+  --f7-list-item-title-white-space: nowrap;
+  --f7-list-item-subtitle-font-weight: 400;
+  --f7-list-item-subtitle-text-color: inherit;
+  --f7-list-item-subtitle-line-height: inherit;
+  --f7-list-item-text-font-weight: 400;
+  --f7-list-item-after-font-weight: 400;
+  --f7-list-item-header-text-color: inherit;
+  --f7-list-item-header-font-size: 12px;
+  --f7-list-item-header-font-weight: 400;
+  --f7-list-item-header-line-height: 1.2;
+  --f7-list-item-footer-font-size: 12px;
+  --f7-list-item-footer-font-weight: 400;
+  --f7-list-item-footer-line-height: 1.2;
+  --f7-list-button-font-size: inherit;
+  --f7-list-button-font-weight: 400;
+  --f7-list-item-divider-line-height: inherit;
+  --f7-list-group-title-line-height: inherit;
+  --f7-list-bg-color: #fff;
+  --f7-list-chevron-icon-color: rgba(0, 0, 0, 0.2);
+}
+
+.picker.sheet-modal {
+  background: white;
+}
+
+#calstar{
+  display: none;
+}
+
+.sliderbiyuyos{
+
+ width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.sliderbiyuyos2 img{
+  width: 30%;
+  position: relative;
+    top: 3vw;
+}
+
+.sliderbiyuyos2 p{
+ font-size: 2vh;
+}
+
+.biyuyoclass{
+  color: white;
+  font-size: 3.5vh !important;
+  bottom: 1.5vh;
+}
+
+.biyuyoclass2{
+  position: relative;
+  bottom: 3.5vh;
+  
+}
+
+.indicabiyuyo1{
+  display: block;
+  position: relative;
+  top: 2vh;
+  /* margin: 2vh; */
+  background: gray;
+  padding: 3vw; 
+  font-family: 'Century Gothic' ;
+}
+
+.indicabiyuyo2{
+  display: block;
+  position: relative;
+  top: 2vh;
+  /* margin: 2vh; */
+  background: #b7ec3f;
+  padding: 3vw; 
+  font-family: 'Century Gothic' ;
+}
+
+
+
+.sliderbiyuyos2{
+  background-position: center;
+  background-size: cover;
+  height: 20vh;
+  background: green;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.biyuyogreen{
+  background-color: #b7ec3f;
+}
+
+.biyuyogray{
+  background-color: gray;
+}
+
+/* Caracteristicas del list */
+/* .md {
+  --f7-list-in-list-padding-left: 40px;
+  --f7-list-inset-border-radius: 4px;
+  --f7-list-margin-vertical: 32px;
+  --f7-list-font-size: 16px;
+  --f7-list-chevron-icon-area: 26px;
+  --f7-list-border-color: rgba(0, 0, 0, 0.12);
+  --f7-list-item-border-color: rgba(0, 0, 0, 0.12);
+  --f7-list-item-subtitle-font-size: 14px;
+  --f7-list-item-text-font-size: 14px;
+  --f7-list-item-text-line-height: 20px;
+  --f7-list-item-after-font-size: 14px;
+  --f7-list-item-after-line-height: inherit;
+  --f7-list-item-after-padding: 8px;
+  --f7-list-item-min-height: 48px;
+  --f7-list-item-media-margin: 16px;
+  --f7-list-item-media-icons-margin: 8px;
+  --f7-list-item-padding-vertical: 8px;
+  --f7-list-media-item-padding-vertical: 14px;
+  /*
+  --f7-list-media-item-title-font-weight: var(--f7-list-item-title-font-weight);
+  */
+  /* --f7-list-button-text-align: left;
+  --f7-list-button-border-color: transparent;
+  --f7-list-item-divider-height: 48px;
+  --f7-list-item-divider-font-size: 14px;
+  --f7-list-item-divider-font-weight: 400;
+  --f7-list-item-divider-bg-color: #f4f4f4;
+  --f7-list-item-divider-border-color: transparent;
+  --f7-list-group-title-height: 48px;
+  --f7-list-group-title-font-size: 14px;
+  --f7-list-group-title-font-weight: 400;
+  --f7-list-group-title-bg-color: #f4f4f4;
+  --f7-list-link-pressed-bg-color: rgba(0, 0, 0, 0.1);
+  --f7-list-item-text-text-color: rgba(0, 0, 0, 0.54);
+  --f7-list-item-after-text-color: rgba(0, 0, 0, 0.54);
+  --f7-list-item-footer-text-color: rgba(0, 0, 0, 0.5);
+  --f7-list-button-text-color: #212121;
+  --f7-list-button-pressed-bg-color: rgba(0, 0, 0, 0.1);
+  --f7-list-item-divider-text-color: rgba(0, 0, 0, 0.54);
+  --f7-list-group-title-text-color: rgba(0, 0, 0, 0.54);
+} */ 
+
+/* .md { */
+/* Caracteristicas del input */
+  /* --f7-input-height: 36px;
+  --f7-input-font-size: 16px;
+  --f7-textarea-padding-vertical: 7px;
+  
+  --f7-input-focused-border-color:green;
+  --f7-input-invalid-border-color: var(--f7-input-error-text-color);
+  --f7-input-invalid-text-color: var(--f7-input-text-color);
+ 
+  --f7-label-font-size: 12px;
+  
+  --f7-label-focused-text-color: green;
+  --f7-label-invalid-text-color: var(--f7-input-error-text-color );
+ 
+  --f7-floating-label-scale: calc(16 / 12);
+  --f7-inline-label-font-size: 16px;
+  --f7-inline-label-line-height: 1.5;
+  --f7-inline-label-padding-top: 7px;
+  --f7-input-clear-button-size: 18px;
+  --f7-input-clear-button-color: green;
+  --f7-input-text-color: #212121;
+  --f7-input-placeholder-color: rgba(0, 0, 0, 0.35);
+  --f7-label-text-color: rgba(0, 0, 0, 0.65);
+  --f7-input-info-text-color: rgba(0, 0, 0, 0.45); */
+  /* Caracteristicas del Tabbar */
+  /* --f7-toolbar-height: 48px;
+  --f7-toolbar-font-size: 14px;
+  --f7-toolbar-inner-padding-left: 0px;
+  --f7-toolbar-inner-padding-right: 0px; */
+  /*
+  --f7-toolbar-link-height: var(--f7-toolbar-height);
+  --f7-toolbar-link-line-height: var(--f7-toolbar-height);
+  */
+  /* --f7-tabbar-labels-height: 56px;
+  --f7-tabbar-labels-tablet-height: 56px;
+  
+  --f7-tabbar-link-active-border-color: var(--f7-theme-color);
+ 
+  --f7-toolbar-top-shadow-image: var(--f7-bars-shadow-bottom-image);
+  --f7-toolbar-bottom-shadow-image: var(--f7-bars-shadow-top-image);
+  --f7-tabbar-icon-size: 24px;
+  --f7-tabbar-link-text-transform: uppercase;
+  --f7-tabbar-link-font-weight: 500;
+  --f7-tabbar-link-letter-spacing: 0.03em;
+  --f7-tabbar-label-font-size: 14px;
+  --f7-tabbar-label-tablet-font-size: 14px;
+  --f7-tabbar-label-font-weight: 400;
+  --f7-tabbar-label-letter-spacing: 0;
+  --f7-tabbar-link-inactive-color: rgba(0, 0, 0, 0.54); */
+/* } */
+
+/* Modificaciones de F7 y especificaciones */
+
+.aurora .navbar ~ * .toolbar-top-aurora, .aurora .navbar ~ .page:not(.no-navbar) .toolbar-top-aurora, .aurora .navbar ~ .toolbar-top-aurora, .ios .navbars ~ * .toolbar-top-ios, .ios .navbars ~ .page:not(.no-navbar) .toolbar-top-ios, .ios .navbars ~ .toolbar-top-ios, .ios .navbar ~ * .toolbar-top-ios, .ios .navbar ~ .page:not(.no-navbar) .toolbar-top-ios, .ios .navbar ~ .toolbar-top-ios, .md .navbar ~ * .toolbar-top-md, .md .navbar ~ .page:not(.no-navbar) .toolbar-top-md, .md .navbar ~ .toolbar-top-md, .navbars ~ * .toolbar-top, .navbars ~ .page:not(.no-navbar) .toolbar-top, .navbars ~ .toolbar-top, .navbar ~ * .toolbar-top, .navbar ~ .page:not(.no-navbar) .toolbar-top, .navbar ~ .toolbar-top {
+	top: 50px;
+}
+
+.aurora .toolbar-bottom-aurora, .ios .toolbar-bottom-ios, .md .toolbar-bottom-md, .toolbar-bottom {
+  bottom: 0;
+  height: 9%;
+}
+
+.aurora .toolbar-top-aurora ~ *, .ios .toolbar-top-ios ~ *, .md .toolbar-top-md ~ *, .toolbar-top ~ * {
+  --f7-page-toolbar-top-offset: 0px;
+}
+
+.page > .tabs {
+	height: 100%;
+	background: #f0f0efff;
+}
+
+/* .page-content{
+  background: white
+} */
+
+.md {
+  --f7-toolbar-height: 48px;
+  --f7-toolbar-font-size: 14px;
+  --f7-toolbar-inner-padding-left: 0px;
+  --f7-toolbar-inner-padding-right: 0px;
+  /*
+  --f7-toolbar-link-height: var(--f7-toolbar-height);
+  --f7-toolbar-link-line-height: var(--f7-toolbar-height);
+  */
+  --f7-tabbar-labels-height: 56px;
+  --f7-tabbar-labels-tablet-height: 56px;
+  
+  --f7-tabbar-link-active-border-color: #b7ec3f;
+ 
+  --f7-toolbar-top-shadow-image: var(--f7-bars-shadow-bottom-image);
+  --f7-toolbar-bottom-shadow-image: var(--f7-bars-shadow-top-image);
+  --f7-tabbar-icon-size: 24px;
+  --f7-tabbar-link-text-transform: uppercase;
+  --f7-tabbar-link-font-weight: 500;
+  --f7-tabbar-link-letter-spacing: 0.03em;
+  --f7-tabbar-label-font-size: 14px;
+  --f7-tabbar-label-tablet-font-size: 14px;
+  --f7-tabbar-label-font-weight: 400;
+  --f7-tabbar-label-letter-spacing: 0;
+  --f7-tabbar-link-inactive-color: rgba(0, 0, 0, 0.54);
+}
+
+input.dialog-input[type] {
+  box-sizing: border-box;
+  margin: 0;
+      margin-top: 0px;
+  margin-top: 15px;
+  border-radius: 90px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  display: block;
+  font-family: inherit;
+  box-shadow: none;
+  font-size: var(--f7-dialog-input-font-size);
+  height: var(--f7-dialog-input-height);
+  background-color: #f0f0ef;
+  border: var(--f7-dialog-input-border-width) solid var(--f7-dialog-input-border-color);
+}
+
+.md .dialog-buttons {
+  height: 48px;
+  padding: 6px 8px;
+  overflow: hidden;
+  box-sizing: border-box;
+  justify-content: flex-end;
+  display: block;
+}
+
+
+.md {
+  --f7-input-height: 36px;
+  --f7-input-font-size: 16px;
+  --f7-textarea-padding-vertical: 7px;
+  
+  --f7-input-focused-border-color: #b7ec3f;
+  --f7-input-invalid-border-color: var(--f7-input-error-text-color);
+  --f7-input-invalid-text-color: var(--f7-input-text-color);
+ 
+  --f7-label-font-size: 12px;
+  
+  --f7-label-focused-text-color: #b7ec3f;
+  --f7-label-invalid-text-color: var(--f7-input-error-text-color );
+ 
+  --f7-floating-label-scale: calc(16 / 12);
+  --f7-inline-label-font-size: 16px;
+  --f7-inline-label-line-height: 1.5;
+  --f7-inline-label-padding-top: 7px;
+  --f7-input-clear-button-size: 18px;
+  --f7-input-clear-button-color: #aaa;
+  --f7-input-text-color: #212121;
+  --f7-input-placeholder-color: rgba(0, 0, 0, 0.35);
+  --f7-label-text-color: rgba(0, 0, 0, 0.65);
+  --f7-input-info-text-color: rgba(0, 0, 0, 0.45);
+}
+
+/* .tabbar .tab-link-active, .tabbar-labels .tab-link-active {
+  color: green;
+  background-color: var(--f7-tabbar-link-active-bg-color,transparent);
+} */
+
+.tabbar .tab-link-active, .tabbar-labels .tab-link-active {
+  color: black;
+  background-color: var(--f7-tabbar-link-active-bg-color,transparent);
+}
+
+.tabbar a, .tabbar-labels a {
+  color: black;
+}
+
+.ios .dialog-buttons-vertical .dialog-button:last-child {
+     border-radius: 90px;
+
+}
+  
+  .ios .dialog-button {
+    width: 70%;
+    padding: 0 5px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+  }
+
+  .md .dialog-buttons-vertical .dialog-button {
+    margin-left: auto;
+    text-align: center;
+    height: 7vh;
+    line-height: 7vh;
+    border-radius: 90px;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    top: 0.1vh;
+    width: 60%;
+}
+
+.navbar-bg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	z-index: 0;
+	background: var(--f7-navbar-bg-color);
+	background-image: var(--f7-navbar-bg-image,var(--f7-bars-bg-image));
+	background-color: white;
+	transition-property: transform;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* Splash inicial */
+
+.splash {
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 30%;
+
+}
+
+/* ------------------------------------------------------------------------ */
+#Logoinicial img{
+    width: 22%;
+    max-width: 400px;
+    display: block;
+    margin:auto;
+}
+
+/* h2{
+    color: blue;
+    text-align: center;
+    background-color: salmon;
+} */
+
+/* .parrafo.p {
+    color: blue;
+} */
+
+
+
+/* Carrusel de imagenes */
+/* .demo-swiper .swiper-slide {
+    font-size: 35px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: #000;
+  } */
+  /* .demo-swiper .swiper-slide {
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    background:white;
+    
+  } */
+  /* .demo-swiper {
+    margin: 0px 0px 0px 0px;
+    font-size: 11px;
+    height: 20vh;
+  
+  } */
+  /* .demo-swiper.demo-swiper-auto .swiper-slide {
+    width: 85%;
+  } */
+  /* .demo-swiper.demo-swiper-auto .swiper-slide:nth-child(2n) {
+    width: 70%;
+  } */
+  /* .demo-swiper.demo-swiper-auto .swiper-slide:nth-child(3n) {
+    width: 30%;
+  } */
+
+ /* Formulario */
+
+ /* .registro .demo-swiper .swiper-slide {
+    font-size: 35px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    color: #000;
+  } */
+/* .registro .demo-swiper .swiper-slide {
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    background:white;
+    
+  } */
+/* .registro .demo-swiper {
+    margin: 0px 0px 0px 0px;
+    font-size: 18px;
+    height: 580px;
+    box-shadow: 0px 2px 4px 2px rgba(100,100,100,0.5);
+  } */
+/* .registro .demo-swiper.demo-swiper-auto .swiper-slide {
+    width: 85%;
+  }
+  .demo-swiper.demo-swiper-auto .swiper-slide:nth-child(2n) {
+    width: 70%;
+  }
+  .demo-swiper.demo-swiper-auto .swiper-slide:nth-child(3n) {
+    width: 30%;
+  } */
+
+  /* label{
+	display: block;
+	font: 0.9rem 'Century Gothic';
+  } */
+
+/* input, label, select {
+	margin: .5rem 4em;
+} */
+
+/* form {
+	display: block;
+	padding-top: 30px;
+} */
+  /* Botones */
+
+  .panelhome{
+    
+    height: 65vh;
+    background-color: #f0f0efff
+  }
+
+  .footer{
+
+    
+    height: 10vh;
+
+  }
+
+  .footer img {
+    height: 7vh;
+    margin: 1vh;
+
+  }
+
+
+ :root{
+  --f7-navbar-height: 70px;
+ }
+
+  .btn_rcl{
+    color: white;
+    font-family: "Century Gothic";
+    font-size: 1em ;
+    border-radius: 60px;
+    background: #52a01f;
+    opacity: 0.8;
+    border: none;
+    height: 6vh;
+    width: 100%;
+    text-align: center;
+    outline: 0;
+
+  }
+
+  .btn_rcl:active{
+    box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+    border-radius: 50px;
+    border: none;
+    outline: 0;
+  }
+
+  .fondoblanco{
+    background-color: white;
+  }
+
+  /* .btn_rcl p{
+    position: relative;
+    text-outline:  0 #000;
+  } */
+
+    /* .btn_rcl{
+      position: relative;
+      top: 1vh;
+    } */
+
+/* .inicial{
+    color: rgba(0,0,0,0.8);
+    font-family: "Century Gothic";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: center;
+    
+  }
+   */
+  /* .inicial:hover{
+      color: #52a01f;
+      font-weight: 700;
+    } */
+
+    #boton2{
+    color: rgba(82,160,31);
+    font-family: "Century Gothic";
+    font-size: 1.4em;
+
+    }
+
+    #cont_inicioses{
+      margin: auto;
+      text-align: center;
+      margin-bottom: 1.5vh;
+    }
+
+    #botones{
+        margin: 25px 65px 0px 65px;
+        position: relative;
+      
+        
+    }
+
+    /* Footer de abajo/ Diseño */
+
+    .swiperRCL{
+      z-index: 10;
+      position: relative;
+      
+    }
+
+
+    .blogswiper img{
+      width: 100%;
+      height: auto;
+    }
+
+    @supports(object-fit: cover){
+        .blogswiper img{
+          height: 100%;
+          object-fit: cover;
+          object-position: center center;
+        }
+    }
+
+    @media screen and (min-height:740px){
+      .swiperRCL{
+        z-index: 10;
+        position: relative;
+        top: 5vh;
+      }
+    }
+
+    .pantallainicial{
+        position: fixed;
+        bottom: 0;
+        z-index:9;
+        background: #b7ec3f;
+        height: 80%;
+        /*max-height: 180px;*/
+        width: 100%;
+    }
+
+    /* Login */
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+    
+    #logito img{
+      width: 22%;
+      max-width: 400px;
+      display: block;
+      margin:auto;
+    }    
+
+    /* Login */
+    #Correo{
+        color: #b4b4b4;
+        font-size: 1.1em;
+        font-family: "Century Gothic";
+        font-weight: 300;
+    }
+
+    #Contraseña{
+      color: #b4b4b4;
+      font-size: 1.1em;
+        font-family: "Century Gothic";
+    }
+
+    /* .ingresar
+    {
+        border-radius: 8px;
+        background: #94d500;
+        color: black;
+        box-shadow: 0px 2px 4px rgba(100,100,100,0.5);
+        font-family: "Century Gothic";
+        font-size: 18px;
+        padding: 5px 15px 5px 15px;
+        font-weight: 700;
+        outline: none;
+        
+    } */
+
+    .BotonIngreso{
+      width: 30%;
+      display: block;
+      margin: auto;
+    }
+
+    .boton
+    {
+        margin: 20px 70px 20px 70px;
+        justify-content: center;
+    }
+
+    #recuperacion{
+      color: rgba(82,160,31);
+      font-family: "Century Gothic";
+      font-size: 1.2em;
+
+    }
+
+    /* #recuperacion2{
+      color: rgba(82,160,31);
+      font-family: "Century Gothic";
+      font-size: 1.9em;
+
+    } */
+
+    /* #Enviar{
+      width: 30%;
+      position: relative;
+      top: 0;
+    } */
+
+    .ingresolis{
+      background-color: white;
+      border-radius: 8%;
+      width: 90%;
+      padding: 6%;
+      margin: auto;
+    }
+
+    @media screen and (max-height:650px){
+      .ingresolis {
+        background-color: white;
+        border-radius: 8%;
+        width: 80%;
+        padding: 6%;
+        position: relative;
+        bottom: 20px;
+      }
+
+      .BotonIngreso{
+        width: 30%;
+        display: block;
+        margin: auto;
+        position: relative;
+        bottom: 40px;
+      }
+
+      #recuperacion{
+        color: rgba(82,160,31);
+        font-family: "Century Gothic";
+        font-size: 1.2em;
+        position: relative;
+        bottom: 40px;
+      }
+
+      .btn_rcl {
+        color: white;
+        font-family: "Century Gothic";
+        font-size: 1em;
+        padding: 5px;
+        border-radius: 60px;
+        background: #52a01f;
+        opacity: 0.8;
+        border: none;
+        height: 6vh;
+        width: 100%;
+        position: relative;
+        bottom: 50px;
+    }
+    }
+
+    #mailRCL{
+     background-color: #F2F1F0;
+     border-radius: 10px;
+    }
+
+    #passwordRCL{
+     background-color: #F2F1F0;
+     border-radius: 10px;
+    }
+
+    .centradotext{
+      text-align: center;
+      font-family: "Century Gothic";
+      font-size: 1.3em;
+    }
+
+    .centradotext2{
+      /* font-size: 30px;
+      font-family: "Century Gothic"; */
+      text-align: center;
+      margin-bottom: 15px;
+      
+      
+      
+    }
+
+    #csscorreo{
+      font-size: 1em;
+      color: #b4b4b4;
+      font-family: 'Century Gothic';
+
+    }
+/* ------------------------------------------------- */
+    /* Elección de tipo de registro */
+
+    
+    .hojitadiv{
+        text-align: right;    
+    }
+
+    .salirreg{
+      width: 5vw;
+      position: relative;
+      top: 2vh;
+      right: 2vh;
+    }
+
+    .registro .hojita{
+        width: 20%;
+        max-width: 130px;
+    }
+
+    /* .recolector .hojita{
+      width: 20%;
+      max-width: 130px;
+  
+  } */
+    
+    .registro #leyenda{
+        position: relative;
+        /* top: 35px; */
+        /* color: black; */
+        text-align: center;
+        font-family: "Century Gothic";
+        font-weight: 600;    
+        font-size: 5vw;    
+        bottom: 3vh;
+    }
+    
+    /* .registro h1{
+        text-align: center;
+        font-family: "Century Gothic";
+        font-size: 5vw;
+        font-weight: 700;
+        line-height: 20px;
+    } */
+    
+    .registro h2{
+        text-align: center;
+        font-family: "Century Gothic";
+        font-size: 2vw;
+        font-weight: 500;
+        line-height: 20px;
+        background-color: white ;
+        color: black;
+    }
+    
+    
+    .registro .posicioncentral{
+        
+       position: absolute;
+        /* top: 1vh; left: 20%; 
+        width: 20%; 
+        height: 8vw; */
+    }
+    
+    
+    
+    .registro .button{
+        background-color: #b7ec3f; 
+        box-shadow: 0px 2px 4px rgba(100,100,100,0.5);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        margin:10px 2px;
+        border-radius: 100%;
+        width:90px;
+        height: 90px;
+        
+    }
+    
+    .registro img{
+        width: 100%;
+    }
+    
+    .registro .posicioncentral2{
+        
+        position: absolute;
+        top: 265px; left: 60%;
+        width: 20%;
+        height: 10vw;
+    }
+
+    #LogoRCLInf img{
+      width: 20%;
+      position: fixed;
+      bottom: 5vw;
+      left: 5vw;
+    }
+
+    #LogoRCLInf{
+      width: 100%;  
+      height: 17%;
+        position: fixed;
+        bottom: 0;
+        z-index:9;
+        /* background-color: #F2F1F0; */
+    }
+    
+    @media screen and (max-width:500px){
+        .registro .posicioncentral {
+            top: 23vh; left: 35%;
+            width: 90px;
+            height: 90px;
+        }
+    
+    
+        .registro .posicioncentral2 {
+            top: 52vh; left: 35%;
+            width: 90px;
+            height: 90px;
+        }
+    
+    
+        .registro h1{
+            font-size: 20px;
+        }
+    
+        .registro h2{
+            font-size: 15px; }
+    }
+    
+    /* Formulario para recolectores */
+
+    .item-after{
+
+      background-color: #F2F1F0;
+      border-radius: 10px;
+      font-size: 1rem;
+      color: black;
+      height: 40px;
+      line-height: 6vh;
+
+    }
+
+    .sup_back{
+      height: 10vh;
+    }
+
+    .camposobl{
+      text-align: center;
+      color: red;
+      font-size: 2vh;
+    }
+
+    .titulosForm{
+      text-align: center;
+      font-size: 2.2vh;
+    }
+
+    .titulo {
+      position: relative;
+      
+      /* bottom: 10%; */
+    }
+
+
+    .titulo h1{
+      font-family: "Century Gothic";
+      font-size: 3vh;
+      font-weight: 500;
+      line-height: 17px;
+      text-align: center;
+      margin: 0px 20px 0px 20px;
+    }
+    
+    .Contenido p{
+      font-family: "Century Gothic";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 17px;
+      text-align: justify;
+      margin: 20px 40px 0px 40px;
+    }
+
+    .tabs .propiedades {
+      font-family: "Century Gothic";
+      font-size: 2.5vh;
+      font-weight: 400px;
+      color: black;
+      text-align: center;
+      margin: auto;
+      
+    }
+
+    .boton2{
+      margin: auto;
+      width: 20%;  
+    }
+
+    /* .Direccion .titulo {
+      font-size: 14px;
+      font-weight: 400;
+      color: black;
+      font-family: "Century Gothic";
+    } */
+     
+    .agregafoto{
+      margin-right: 40px;
+      margin-left: 40px;
+    }
+
+    /* .agregafoto p{
+      font-size: 14px;
+      font-weight: "Century Gothic";
+    } */
+
+    .agregafoto #Foto{
+      font-family: "Century Gothic";
+      font-size: 1.8vh;
+      font-weight: 700;
+      line-height: 13px;
+      text-align: center;
+    
+    }
+
+    .descrip_foto{
+      font-size: 2.2vh;
+      font-family: "Century Gothic";
+      text-align: justify;
+    }
+
+    .agregafoto #terminos{
+      font-family: "Century Gothic";
+      font-size: 2vh;
+      font-weight: 400;
+      text-align: justify;
+      margin-top: 5vh;
+      
+    }
+
+    .boton_fin{
+      width: 60%;
+      max-width: 80px ;
+    }
+
+    .nextto{
+      width: 100%;
+    }
+
+    .agregafoto img{
+      display: block;
+     margin: auto;
+     width: 15vh;
+    }
+
+    @supports(object-fit: cover){
+      .agregafoto img{
+        width: 15vh;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+    }
+
+    .inputfile2 {
+      width: 0.1px;
+      height: 0.1px;
+      /* opacity: 0; */
+      overflow: hidden;
+      position: absolute;
+      z-index: -1;
+      background-color: black;
+    }
+
+    .inputfile {
+      width: 0.1px;
+      height: 0.1px;
+      opacity: 0;
+      overflow: hidden;
+      position: absolute;
+      z-index: -1;
+      background-color: black;
+    }
+
+    .inputrecolectorval{
+     background-color: #F2F1F0;
+     border-radius: 10px;
+     text-transform: uppercase;
+    }
+
+    .inputrecolector1{
+      background-color: #F2F1F0;
+     border-radius: 10px;
+    }
+
+    /* Terminos y condiciones */
+    
+    .tituloTyC{
+      font-family: 'Century Gothic';
+      font-size: 5vw;
+      color: black;
+      font-weight: 700;
+      text-align: justify;
+    }
+    
+    .subtituloTyC{
+      color: #7A7A7A;
+      font-weight: 700;
+      font-size: 4.5vw;
+      text-align: justify;
+    }
+
+    .parrafoTyC{
+      color: #7A7A7A;
+      font-size: 4vw;
+      text-align: justify;
+    }
+    
+    /* Dialogo de confirmación de registro */
+    
+    .estilocss1 {
+      font-size: 30px;
+    }
+
+    .estilocss1 p{
+      font-family: "Century Gothic";
+      font-size: 2vh;
+      font-weight: 500;
+      line-height: 22px;
+      text-align: center;
+      z-index: 1;
+      color: red;
+    }
+
+    .estilocss img{
+      width: 40%;
+      max-width: 400px;
+      display: block;
+      margin:auto;
+      z-index: 1;
+  }
+
+   .estilocss1 .conteo{
+     color: #94d500;
+     font-weight: 700;
+   }
+
+   .estilocss .Estilolet1{
+     color: black;
+     font-size: 3vh;
+     text-align: center;
+   }
+
+   .estilocss .Estilolet2{
+     color: #8E8E8E;
+     font-size: 2.5vh;
+     text-align: center;
+   }
+  
+ 
+    .botonlog {
+      background: #52a01f;
+      color: white;
+      box-shadow: 0px 2px 4px rgba(100,100,100,0.5);
+      font-family: "Century Gothic";
+      font-size: 2.5vh;
+      /* padding: 1px 15px 1px 1px; */
+      font-weight: 600;
+      outline: none;
+      width: 50%;
+      border-radius: 10px;
+      /* position: relative; */
+      bottom: 2vh;
+      z-index: 9;
+      margin: auto;
+    }
+
+    #botonregresa{
+      color: white;
+    }
+
+    /* Pantalla de recuperación de contraseña */
+
+    /* Condiciones Iniciales del Estilo */
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Logo de la apicación */
+
+.logitohoja{
+  margin-top: 60px;
+}  
+
+.logitohoja img{
+  width: 20%;
+  /* max-width: 350px; */
+  display: block;
+  margin:auto;
+  display: block;
+  
+}
+
+@media screen and (min-width:500px){
+  
+  img {
+      width: 10%;}
+  
+}
+
+
+/* Parrafos de explicación */
+.parrafo{
+  /* margin: 30px 40px 30px 40px; */
+}
+
+#formrecu{
+  margin: 0%;
+}
+
+.tamboton2{
+  width: 20%;
+
+}
+
+.parrafo h1, p{
+  font-family: 'Century Gothic';
+  line-height: 1.2;
+}
+
+.parrafo h1{
+font-weight: 500;
+font-size: 1.2em;
+text-align: center;
+/* margin: 10px 10px 10px 10px */
+/* padding-bottom: 10px; */
+}
+
+.parrafo p{
+  
+  font-size: 0.9em;
+  text-align: center;
+  color: #b4b4b4;
+  
+}
+
+/* ---------------------------------Formulario de recuperación---------------------------------------------- */
+
+.formulario{
+  margin: 30px 40px 30px 40px;
+}
+
+input, label {
+  display: block;
+  font: 1rem 'Century Gothic';
+  margin-top: 10px;
+  text-align: center;
+  
+}
+
+.formulario .propiedades{
+  font-size: 14px;
+  color: black;
+  font-family: 'Century Gothic';
+}
+
+input{
+  border: 1px solid #52A01F;
+background-color: white;
+outline: none;
+  border-radius: 5px;
+  padding-left: 30vw;
+  text-align: center;
+  
+  
+}
+
+.ingresolis2{
+  background-color: white;
+  border-radius: 10%;
+  width: 90%;
+  padding: 6%;
+  margin: auto;
+  margin-top: 5vh;
+}
+
+#correoelectronico{
+  background-color: #F2F1F0;
+     border-radius: 10px;
+}
+
+
+/* Hiperenlace de regresar a iniciar sesión*/
+
+.recu{
+  margin: 30px 40px 30px 40px;
+  padding-top: 10px;
+  padding-left: 60px;
+
+}
+
+#Logorecu img{
+  height: 13vh;
+  max-width: 400px;
+  display: block;
+  margin:auto;
+}
+
+.recuperacion2{
+  color: #52A01F;
+  display: block;
+  position: absolute;
+  font-size: 1.5em;
+  top: 2vh;
+  left: 5vw;
+  font-family:'Century Gothic' ;
+}
+
+/* Botón para enviar */
+
+.Enviar{
+background: #94d500;
+border: 0;
+border-radius: 10%;
+font-size: 1em;
+display: block;
+position: relative;
+top: 20px;
+margin: auto;
+font-family: 'Century Gothic';
+padding: 5px 15px 5px 15px;
+}
+
+/* Ajustes responsivos */
+
+@media screen and (min-width:500px){
+  
+  .Enviar {
+      padding: 5px 15px 5px 15px;
+      margin: initial;
+  }
+
+  label {
+     text-align: justify;
+  }
+  
+}
+
+/* Pantalla de Inicio (Principio de registro y validación) */
+
+
+
+.header .logotrabj {
+	/* display: inline; */
+	width: 15%;
+	position: relative;
+	/* top: 10px; */
+	/* left: 35px; */
+	margin-left: 12vw;
+	margin-right: 10vw;
+}
+
+.mensajeria {
+	width: 13%;
+	/* display: inline; */
+	/* position: relative; */
+	/* left: 55px; */
+	/* bottom: 10px; */
+	margin-left: 8vw;
+	margin-bottom: 0.7vh;
+}
+
+.contenedorimagen{
+  width: 13vh;
+  height: 13vh;
+  margin: auto;
+  margin-bottom: 5vh;
+}
+
+.contenedorimagen img{
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  object-fit: cover;
+  object-position: center center;
+  margin-top: 2.5vh;
+}
+
+.Nombrelargo{
+  line-height: 1.3;
+}
+
+
+
+.col-45{
+  text-align: center;
+  background-color: #b4b4b4;
+}
+
+.col-10{
+  background-color: #8f8f8f;
+}
+
+.transf12{
+  background-color: #b4b4b4;;
+  padding: 7px;
+}
+
+.imagenmenu:active{
+  box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+  border-radius: 50px;
+}
+
+.imagenmenu2:active{
+  box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+  border-radius: 50px;
+}
+
+.imagenmenu{
+  width: 45%;
+margin-top: 5vh;
+}
+
+.margendel{
+  
+  margin-bottom: 5vh;
+}
+
+.imagenmenu2{
+  width: 45%;
+}
+
+.col{
+  text-align: center;
+}
+
+.perfilenca{
+  float: right;
+margin-right: 22vh;
+font-size: 5vw;
+color: #8f8f8f;
+font-size: 2vh;
+}
+
+.perfilenca2{
+  font-size: 3vw;
+  color: #8f8f8f;
+  text-align: center;
+  line-height: 10px;
+}
+
+.fotoperfil3{
+  float: left;
+  width: 10%;
+  margin-right: 5vw;
+}
+
+.fotoperfil4{
+  float: left;
+  width: 10%;
+  margin-bottom: 50px;
+  margin-right: 5vw;
+}
+
+.contenedores{
+  margin-bottom: 3.5vh;
+  font-size: 2.1vh;
+}
+
+
+
+.page {
+  background-image: white;
+}
+
+
+.homenavbar{
+  height: 25vh;
+  line-height: 1.5vh;
+  text-align: center;
+  position: relative;
+  
+}
+
+.logotabbar {
+  width: 5vh;
+}
+
+.toolbar-inner{
+  background-color: #b7ec3f;
+}
+
+#tab-1 .registros{
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  bottom: 30px;
+  margin: 0;
+  text-align: center;
+  background-color: #f0f0efff;
+}
+
+/* @media only screen and (min-height:800px){
+  #tab-1 .registros{  
+    height: 50vh;  
+  }
+}
+
+@media only screen and (min-height:750px) and (max-height:800px) {
+  #tab-1 .registros{
+    height: 46vh; 
+  }
+}
+
+@media screen and (min-height:700px) and (max-height:750px){
+  #tab-1 .registros{
+    height: 44vh; 
+  }
+}
+
+@media screen and (min-height:650px) and (max-height:700px){ 
+  #tab-1 .registros{
+    height: 40vh;  
+  }
+}
+
+@media (min-height:600px) and (max-height:650px){
+  #tab-1 .registros{
+    height: 36vh;  
+  }
+}
+
+@media screen and (max-height:600px){
+  #tab-1 .registros{ 
+    height: 34vh;   
+  }
+} */
+
+
+#tab-1 .registros .hojitaproducto {
+  width: 8vh;
+  position: relative;
+  top: 9vw;
+
+}
+
+#tab-1 .registros .eliminarproduc {
+  width: 4vw;
+  position: relative;
+  left: 6vw;
+}
+
+
+
+#sinregistrosimg{
+width: 20vh;
+position: relative;
+top: 8vh;
+}
+
+
+#tab-1 .registros p {
+  width: 100%;
+  position: relative;
+  top: 11vh;
+  text-align: center;
+  margin: 0;
+  font-size: 3vh;
+}
+
+#tab-1 .menureg{
+  height: 25vh;
+  margin: 0;
+  display: block;
+  position: relative;
+  top: 95%;
+
+}
+
+#tab-1 .menureg p{
+  text-align: center;
+}
+
+#tab-1{
+  position: relative;
+  background-color: #f0f0efff;
+}
+
+.botonregresar{
+  position: relative;
+  font-weight: 600;
+  top: 5vh;
+  left: 2vw;
+
+}
+
+/* hr {
+  border: 10px solid rgb(59, 61, 59);
+  border-radius: 5px;
+  position: relative;
+  bottom: 1px;
+} */
+
+/* .menureg .escaner{
+        
+  position: relative;
+   left: 10%;
+   width: 20%;
+   height: 10vw;
+   top: 3%;
+   display: block;
+   
+} */
+
+.menureg .escaner {
+  /* position: relative; */
+	left: 10%;
+	width: 20%;
+	height: 10vw;
+	/* top: 3%; */
+	display: block;
+	display: inline;
+	float: left;
+	margin-left: 5vh;
+	margin-right: 5vh;
+}
+
+.menureg .manual {
+  width: 31%;
+  height: 10vw;
+  display: block;
+  float: left;
+  margin-left: 12vw;
+}
+
+.menureg .button{
+background-color: #b7ec3f;
+ box-shadow: 0px 2px 4px rgba(100,100,100,0.5);
+ color: white;
+ padding: 0px;
+ text-align: center;
+ text-decoration: none; 
+ margin: 10px 5px;
+ border-radius: 100%;
+ width: 20vw;
+ height: 20vw;
+}
+
+.registroimg{
+  width: 60%;
+  position: relative;
+  top: 5px;
+}
+
+.menureg .escaner h2{
+  font-family: 'Century Gothic';
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  width: 140%;
+  color: black;
+  position: relative;
+  left: 2vh;
+}
+
+@media screen and (max-width:500px){
+   
+  
+
+}
+
+.menureg .manual h2{
+  font-family: 'Century Gothic';
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  color: black;
+  position: relative;
+  /* left: 20px; */
+  text-align: center;
+}
+
+.tab-link{
+  font-size: 9;
+}
+
+.registromanual{
+  display: none;
+}
+
+.registros .sinregistros{
+  display: block;
+}
+
+.registros .conregistros{
+  display: none;
+}
+
+.cardresiduo{
+  display: block;
+  position: relative;
+  width: 50%;
+  float: right;
+  bottom: 25px;
+  z-index: 100;
+}
+
+.contenidocarta{
+  width: 50%;
+  margin: 0px;
+}
+
+/* .card-content-padding{
+  width: 50%;
+  margin: 0px;
+} */
+
+.card{
+  box-shadow: 0px 2px 4px 1px rgba(100,100,100,0.5);
+}
+
+.contador{
+  position: relative;
+  bottom: 30px;
+  margin: 0;
+  height: 30px;
+  display: none;
+}
+
+.contador p{
+  font-size: 16px;
+}
+
+.validacion2{
+  background: #f0f0efff;
+} 
+
+.bienvenida{
+  font-size: 7vw;
+  margin: auto;
+  text-align: center;
+  padding-top: 10vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: black;
+  font-weight: 500;
+}
+
+.Valida{
+  border-radius: 90px;
+  background: green;
+  color: white;
+  box-shadow: 0px 2px 4px rgba(100,100,100,0.5);
+  font-family: "Century Gothic";
+  font-size: 16px;
+  padding: 5px 15px 5px 15px;
+  font-weight: 700;
+  outline: none;
+  width: 40%;
+  /* float: right; */
+  position: relative;
+  
+  bottom: 6.5vh;
+  left: 50vw;
+
+}
+
+.registrar{
+  border-radius: 90px;
+  background: #94d500;
+  color: black;
+  
+  font-family: "Century Gothic";
+  font-size: 16px;
+  padding: 5px 15px 5px 15px;
+  font-weight: 700;
+  outline: none;
+  width: 80%;
+  display: block;
+  position: relative;
+  top: 20px;
+  
+  margin: auto;
+}
+
+.registromanual{
+  background-color: white;
+  outline: none;
+  border-radius: 20px;
+  height: 15vh;
+}
+
+#barcode{
+  background-color: #F2F1F0;
+  color: #393939;
+  font-size: 18px;
+  padding: 2.5vw;
+  width: 80%;
+  outline: none;
+  position: relative;
+  margin: auto;
+  top: 20px;
+  border-radius: 90px;
+  font-size: 4vw;
+}
+
+#barcode2{
+  background-color: #F2F1F0;
+  color: #393939;
+  font-size: 18px;
+  padding: 2.5vw;
+  width: 80%;
+  outline: none;
+  position: relative;
+  margin: auto;
+  top: 20px;
+  border-radius: 90px;
+  font-size: 4vw;
+}
+
+#inputtexto{
+  background-color: white;
+  color: #393939;
+  padding: 2.5vw;
+  width: 80%;
+  outline: none;
+  position: relative;
+  margin: auto;
+  top: 50px;
+  border-radius: 90px;
+  font-size: 8vw;
+  text-transform: uppercase;
+}
+
+#botonsalirdes{
+  width: 100%;
+}
+
+#botonsiguiente{
+
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 18vh;
+}
+
+.card1{
+  margin-top: 10vh;
+}
+
+.hojitaregis{
+  width: 20%;
+    display: flex;
+    float: left;
+    margin-right: 5vw;
+    position: relative;
+    bottom: 1vh;
+    margin-bottom: 4vh;
+}
+.card-content-padding {
+  padding: 0;
+}
+
+#savechanges{
+  background: green;
+    color: white;
+    border-radius: 100px;
+    padding: 1vh;
+}
+
+.formcard{
+  line-height: 1vh;
+  /* width: 80%; */
+}
+
+.tamboton{
+  width: 25%;
+}
+
+.cambiobtnsig{
+  margin: auto;
+  text-align: center;
+  position: relative;
+  bottom: 100px;
+  display: none;
+}
+
+#offline1{
+  display: none;
+  width: 50%;
+  position: relative;
+  margin: auto;
+  top: 10vh;
+}
+
+#offline2{
+  display: none;
+  width: 50%;
+  position: relative;
+  margin: auto;
+  top: 10vh;
+}
+
+.conteoval{
+  line-height: 1vh;
+    margin-left: 2vh;
+    height: 5vh;
+}
+
+/* Boton de estrellas */
+
+label {
+  display: inline-block;
+  padding: 0;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+label.reset {
+  font-size: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin: 10px 5px;
+  padding: 2px 3px;
+}
+
+label.star {
+  width: 13vw;
+  height: 27px;
+  position: relative;
+  
+}
+
+#texto {
+  position: relative;
+    top: 5vw;
+    font-size: 5vw;
+    font-family: 'Century Gothic';
+}
+/* ocultamos los radiobuttons */
+
+input[name=rating] {
+  display: none;
+}
+
+
+/* estrellas inmediatamente despues de un radiobutton van amarillas */
+
+input[type=radio]+label.star svg path {
+  fill: green
+}
+
+
+/* estrellas a la derecha del radiobutton checked van blanco */
+
+input[type=radio]:checked~label.star svg path {
+  fill: #fff;
+}
+
+/* ------------------------------------------------------------------ */
+.estrellascont{
+  text-align: center;
+  width: 100vw;
+  height: 50px;
+}
+
+.ratingstar{
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 5vh;
+}
+
+#offline3{
+  display: none;
+  width: 50%;
+  position: relative;
+  margin: auto;
+  top: 10vh;
+}
+
+
+a{
+  color: black;
+}
+
+#tamaño{
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  color: black;
+
+}
+
+.parrafovalidacion{
+     text-align: center;
+     font-size: 18px;
+     color: black;
+}
+
+.imagenvalidacion img{
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+.botonvalidacion {
+  color: black;
+  font-family: "Century Gothic";
+  font-size: 1.1em;
+  padding: 5px;
+  border-radius: 90px;
+  background: #b7ec3f;
+  border: none;
+  width: 100%;
+  height: 5vh;
+}
+
+.claseco{
+ 
+  font-family:"Century Gothic" ;
+
+} 
+
+.contar{
+  text-align: center;
+  color: #b7ec3f;
+  font-size: 10vw;
+  font-weight: 600;
+  margin: 0;
+}
+
+#conteoproductos{
+  color: #94d500;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* Nuevo sistema de validacion */
+
+.botoncerrarpop {
+  text-align: right;
+  margin: auto;
+}
+
+.imagenqr {
+  text-align: center;
+  position: relative;
+  bottom: 5vh;
+}
+
+.imagenqr img{
+  width: 35%;
+}
+
+.textovali{
+  text-align: center;
+  font-family: "Century Gothic";
+  position: relative;
+  font-size: 2.5vh;
+  line-height: 3vh;
+  margin-bottom: 30px;
+}
+
+#qrcode img{
+  display: inline !important;
+  text-align: center !important;
+  width: 70%;
+}
+
+.instrucqr{
+  text-align: center;
+}
+
+.botoncerrarpop{
+  text-align: right;
+}
+
+.botoncerrarpop img{
+  width: 10%;
+}
+
+.resalconte{
+  
+  color: #b7ec3f;
+  font-weight: 500;
+  font-size: 3vh;
+
+}
+
+#qrcode{
+ text-align: center;
+}
+
+#codigoregistro{
+  background-color: whitesmoke;
+  margin: auto;
+  border-radius: 100px;
+  font-size: 2.5vh;
+  text-align: center;
+  width: 100%;
+}
+
+.instrucqr{
+  font-family: "Century Gothic";
+    padding: 2vw;
+    text-align: center;
+    font-size: 2vh;
+}
+/* Estilos para página de visualización de información personal */
+
+.encabezado img{
+  width: 15%;
+}
+
+.encabezado{
+  margin: 20px 0px 10px 0px;
+}
+
+.cambiofoto{
+  margin-top: 10px;
+  margin: auto;
+  text-align: center;
+}
+
+#fotoperfil2{
+  width: 30%;
+  display: block;
+  margin: auto;
+  
+}
+
+#Fotoperfil{
+  font-size: 15px;
+}
+
+.datosperfil{
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+
+.informacionperfil{
+  text-align: left;
+}
+
+.datosmod{
+  margin-top: 10px;
+}
+
+.cambiosletras{
+  padding: 0px 80px 0px 60px;
+  color: #8f8f8f;
+  
+}
+
+.cambiosletras p{
+  text-align: center;
+  font-size: 20px;
+  font-size: 2.2vh;
+}
+
+#cerrarsesion{
+  text-align: right;
+}
+
+.colcontenido {
+  background-color: #94d500;
+  font-weight: 700;
+}
+
+.cambios{
+  border-radius: 5% 5% 0% 0%;
+  padding-right: 0% ;
+}
+
+.cambios2{
+  border-radius: 0% 0% 5% 5%;
+}
+
+.validacionpassword{
+--f7-input-focused-border-color: red;
+--f7-label-focused-text-color:red;
+--f7-input-clear-button-color: red;
+}
+
+/* Chat RCL */
+
+/* .posiciontitulo{
+  text-align: center;
+  font-size: larger;
+} */
+
+#tab-2{
+  padding-top: 80px;
+  background-color: #f0f0efff;
+}
+
+.toolbarhome{
+  position: absolute;
+  
+  background-color: white;
+}
+
+.estilostoolbar{
+  background-color: whitesmoke;
+  position: relative;
+}
+
+.estilostoolbar2{
+  background-color: whitesmoke;
+  position: relative;
+  top: 7.5vh;
+}
+
+#tab-5{
+  padding-top: 50px;
+}
+
+
+/* Estilos de la sección de recompensas */
+
+.counter {
+  display: inline-block;
+  margin: 0% 8% 0% 8%;
+  font-size: 30px;
+  background-color: #94d500;
+  color: black;
+  width: 14%;
+  border-radius: 70%;
+  /* height:50px; */
+  vertical-align: middle;
+  text-align: center; 
+  position: relative;
+  left: 5%; 
+  padding: 2%;
+}
+
+.titulorecom {
+
+  background-color: white;
+  font-size: 18px;
+  font-family: "Century Gothic";
+  color: #94d500;
+
+}
+
+.recompensas {
+  
+  background-color: white;
+  font-size: 14px;
+  font-family: "Century Gothic";
+  color: black;
+  margin-right: 30px;
+  margin-left: 30px;
+  text-align: justify;
+
+}
+
+/* .contadoresp{
+   margin: auto;
+   text-align: center;
+} */
+
+.leyendacount{
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+  position: relative;
+  /* left: 10%; */
+  /* margin: 0% 2% 0% 2%; */
+  /* margin: 0; */
+}
+
+#modf1{
+  position: relative;
+  left: 7%;
+}
+
+#modf2{
+  position: relative;
+  left: 13%;
+}
+
+#modf3{
+  position: relative;
+  left: 17%;
+}
+
+.elevation-8{
+
+  width: 5%;
+  height: 10%;
+  background-color: brown;
+  
+}
+
+.margenrecom{
+  
+  margin-top: 0px;
+  background-color: white;
+
+}
+
+.insigniasp{
+  display: inline-block;
+  margin: 7%;
+}
+
+/* Entérate (Sección de Blog) */
+
+/* .pruebaswiper{
+   
+  height: 10%;
+  background:  black;
+} */
+
+/* .swiper-container{
+  background: gray;
+} */
+
+
+/* .swiper-container{
+  background: gray;
+  
+} */
+
+.holita{
+  background: green;
+  /* height: 60%; */
+  width: 40%;
+  color: green;
+}
+
+.demo-card-header-pic .card-header {
+  height: 40vw;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+.demo-card-header-pic .card-content-padding .date{
+  color: #8e8e93;
+}
+
+.enterate{
+  background-color: #f0f0efff ;
+  font-size: 7vw;
+  font-weight: 600;
+  font-family: "Century Gothic";
+  color: #94d500;
+  margin: auto;
+  text-align: center;
+}
+
+#construccion {
+
+   text-align: center;
+   font-size: 30px;
+
+}
+
+#construccion img {
+  display:block;
+   margin:auto;
+  width: 30%;
+}
+
+/* Imagenes de publicaciones */
+
+.imgpubli{
+  width: 100%;
+}
+
+.titulopubli{
+ text-align: center;
+ font-family: "Century Gothic";
+ font-size: larger;
+ font-weight: 700;
+ text-transform: uppercase;
+ 
+}
+
+.autorpubli{
+  text-align: justify;
+  font-weight: 600;
+}
+
+.contenidopubli{
+  text-align: justify;
+}
+
+
+/* Prueba */
+
+.image-upload > input
+{
+    display: none;
+}
+
+.image-upload img
+{
+    width: 30px;
+    cursor: pointer;
+}
+
+/* Codigo de validación */
+
+.codigoval {
+  font-size: 10vw;
+  /* width: 40%; */
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  margin: auto;
+  
+}
+
+#tab-6{
+  padding-top: 20%;
+}
+
+.piepagina{
+  margin-top: 20px;
+}
+
+
+/* Página de error */
+
+.panelerror{
+  height: 35vh;
+  background-color: white ;
+  text-align: center;
+}
+
+.panelerror2{
+ height: 65vh;
+ background-color: #f0f0efff;
+}
+
+.panelerror img{
+  width: 40%;
+  margin-top: 5vh;
+}
+
+.panelerror p{
+  font-size: 8vw;
+  margin-top: 0px;
+}
+
+.panelerror2 p{
+    width: 50%;
+    text-align: center;
+    position: center;
+    margin: auto;
+}
+
+.panelerror2{
+  text-align: center;
+}
+
+.panelerror2 img{
+  width: 20%;
+  font-size: 4vw;
+}
+
+.imagenselecc{
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+/* Sección de informate */
+
+.footerdepag{
+
+position: fixed;
+bottom: 0;
+width: 100%;
+height: 10vh;
+background: #b7ec3f;
+z-index:2000;
+}
+
+.navbarinfor{
+  height: 10vh;
+  background-color: white;
+  text-align: center;
+  font-size: 2vh;
+}
+
+.navbarinfor p{
+  display: block;
+  margin: auto;
+  padding-top: 4vh;
+  padding-right: 5vh;
+}
+
+.navbarinfor img{
+  float: left;
+}
+
+.imagenregresa{
+  margin-top: 1vh;
+  width: 15%;
+}
+
+.imagendivreg{
+  text-align: left;
+}
+
+.validaciondiv{
+  position: relative;
+  top: 3vh;
+}
+
+.imagendivreg img{
+  width: 40%;
+}
+
+.imagenfooter{
+  text-align: center;
+    position: relative;
+    top: 2vh;
+}
+
+.imagenfooter img{
+  width: 60%;
+}
+
+.footerdepag button{
+  position: relative;
+  top: 3vh;
+  height: 4vh;
+  background: #b4b4b4;
+}
+
+.biyuyosval{
+  padding: 2vh;
+  font-size: 1.8vh;
+}
+
+.searchbar{
+  position: relative !important;
+}
+
+/* Pagina de validación */
+
+.otraseleccion{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.otraseleccion img{
+  width: 20%;
+}
+
+.otraseleccion p {
+  margin: 0;
+}
+
+.quireci{
+  text-align: center;
+}
+
+.espacionavbar{
+  height: 25vh;
+  
+}
+
+/* Catalogo */
+
+.buscadorcosas{
+  position: absolute;
+    top: 10vh;
+    width: 100%;
+}
+
+.buscadorpromos{
+  position: relative;
+    top: 2vh;
+    width: 100%;
+}
+
+.dentrodela{
+  background: whitesmoke;
+}
+
+.textobusqueda{
+  margin-top: 9vh !important;
+}
+
+.noencontror{
+  text-align: center;
+}
+.noencontror img{
+  width: 40%;
+    position: relative;
+    top: 20vh;
+}
+
+.noencontror p{
+  position: relative;
+  top: 20vh;
+  font-size: 3vh;
+}
+
+.productosregis{
+  width: 30vw;
+    margin-right: 10vw;
+}
+
+.hojitaregis2{
+  width: 100%;
+  float: left;
+  margin-bottom: 5vh;
+}
+
+.botonregistro{
+  /* display: flex; */
+   align-items: center;
+   color: white;
+   background-color:  #b7ec3f;
+   text-align: center;
+   height: 5vh;
+}
+
+.botondentroreg{
+  line-height: 5vh;
+}
+
+.btnregmanual{
+  /* align-items: center;
+   color: black;
+   background-color:  #b7ec3f;
+   text-align: center; */
+   height: 5vh;
+}
+
+.imagenesins{
+  width: 100%;
+}
+
+.imgajuste1{
+  background-color: red;
+  text-align: center;
+  
+}
+
+.imgajuste1 img{
+  height: 4vh;
+  position: relative;
+  top: 0.5vh;
+  
+}
+
+.imgajuste3{
+  background-color: #b7ec3f ;
+  text-align: center;  
+}
+
+.imgajuste3 img{
+  height: 4vh;
+  position: relative;
+  top: 0.5vh;
+}
+
+/* Validacion */
+
+#valmanual{
+  background: white;
+  border-radius: 20px;
+  text-align: center;
+  display: block;
+  padding-bottom: 6vh;
+}
+
+#valmanual p{
+  position: relative;
+  top: 2vh;
+}
+
+#valmanual2{
+  background: white;
+  border-radius: 20px;
+  text-align: center;
+  display: block;
+  padding-bottom: 6vh;
+}
+
+#valmanual2 p{
+  position: relative;
+  top: 2vh;
+}
+
+
+#sinproductos{
+  height: 25vh;
+  text-align: center;
+}
+
+#sinproductos p{
+  position: relative;
+    top: 18vh;
+    font-size: 5vw;
+}
+
+#sinproductos2{
+  height: 25vh;
+  text-align: center;
+}
+
+#sinproductos2 p{
+  position: relative;
+    top: 18vh;
+    font-size: 5vw;
+}
+
+
+/* Pantalla de validación */
+
+.rcl img {
+  width: 20%;
+}
+
+.rcl{
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+
+.botonok{
+  text-align: center;
+    margin: auto;
+    width: 10vh;
+    background: green;
+    color: white;
+    height: 10vh;
+    border-radius: 100%;
+
+}
+
+.botonok p{
+  
+  position: relative;
+  top: 4vh;
+
+}
+
+.listoestoy{
+  font-size: 3vh;
+    font-weight: 600;
+}
+
+.cantidadbiy{
+  font-size: 2.5vh;
+    font-weight: 600;
+    color: green;
+}
+
+.sehanval{
+  font-size: 2.5vh;
+}
+
+.swiperbiyuyos{
+      position: relative;
+
+    top: 5vh;
+}
+
+/* // Promociones y socios */
+
+#socioscont {
+
+  margin-top: 10vh;
+  margin-right: 10vw;
+  margin-left: 10vw;
+
+}
+
+.espacioarriba {
+  height: 10vh;
+}
+
+.cuponespromo{
+  text-align: center;
+}
+
+.cuponespromo img{
+  width: 85% !important;
+}
+
+.botoncanjeo{
+  background: #b7ec3f;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 4vh;
+  font-family: "Century Gothic";
+  position: relative;
+  bottom: 2vh;
+}
+
+.hacercanjeo{
+  display: none;
+}
+
+.botoncanjeo p{
+  position: relative;
+  top: 0.6vh;
+}
+
+.dialog-title{
+  text-align: center;
+}
+
+.dialog-text{
+  text-align: center;
+}
+
+.botonpromcanje{
+ background: green;
+ border-radius: 90px;
+ height: 4vh;
+ color: white;
+}
+
+.botonpromcanje p{
+  position: relative;
+  top: 0.5vh;
+}
+
+.botonpromcancel{
+   color: black ;
+   border-radius: 90px;
+   background-color: whitesmoke;
+   height: 4vh;
+}
+
+.botonpromcancel p{
+  position: relative;
+  top: 0.5vh;
+}
+
+/* #barcode{
+  text-transform: uppercase;
+}
+
+#barcode2{
+} */
+
+/* Imagen de perfil */
+
+.material-icons-outlined { 
+     font-size: 3vh; 
+}
+
+.infoicon {
+    position: relative;
+    top: 3vh
+}
+
+.eliminarprod:active{
+  box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+  border-radius: 50px;
+}
